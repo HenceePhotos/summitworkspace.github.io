@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summit Workspace</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="index.html"><img class="logo" src="images/Logo.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+      	<li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="locations.html">Locations</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="policy.html">Policy</a> </li>
+		<li class="nav-item" id="cta"> <a class="nav-link" href="signin.html">My Account</a> </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+<div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+				  
+              </div>
+				<a href="bookingconfirmation.html" style="text-decoration: none; width: 100%;"><input type="submit" value="Confirm Booking" class="btn" id="pay"></a>
+            </div>
+          </div>
+          
+        </div>
+	</div>
+  </div>
+</div>
+     <script src="javascript/script.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+<footer>
+    <a href="https://www.instagram.com/" target="_blank"><img class="socialmedia" src="images/footerig.png" alt="Instagram link"><a/>
+    <p class="footertxt">© Summit Enterprise 2025</p>
+</footer>
+</body>
+</html>

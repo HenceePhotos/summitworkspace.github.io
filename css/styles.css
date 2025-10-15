@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+.logo {
+    width: 200px;
+	height: auto;
+}
+
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+	color: red;
+	text-align: center;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: #FF5D73;
+}
+
+.confirmbook {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.confirmdiv {
+	padding-top: 140px;
+	padding-bottom: 300px;
+}
+
+#cta:last-child {
+	right:10px;
+    position:absolute;
+	background-color: #FF5D73;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#cta a {
+	color: white;
+}
+
+#cta a:hover {
+	color: black;
+}
+
+.calenderdiv {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.socialmedia {
+    width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.banner {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.space {
+	margin-left: 20px;
+}
+
+.nav.nav-pills .nav-item .nav-link.redsign {
+    background-color: #FF4649;
+    color: #FFFFFF;
+}
+
+.textpad {
+	padding-left: 20px;
+  text-align: justify;
+}
+
+.textpad2 {
+	padding-left: 30px;
+  text-align: justify;
+}
+
+.nav {
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 100%;
+	display: flex;
+}
+
+.row {
+	display: flex;
+	height: auto;
+	width: 100%;
+}
+
+.col1 {
+	width: 40%;
+}
+
+.col2 {
+	width: 60%;
+}
+
+.col3 {
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.col4 {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.aboutimg {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.locations {
+	margin-left: 5%;
+	margin-right: 2%;
+	padding: 10px;
+	color: white;
+	background-color: #8D818C;
+	border-radius: 10px;
+}
+
+#map { 
+	height: 500px;
+}
+
+footer {
+    height: 100px;
+    padding-top: 15px;
+
+}
+
+.footertxt {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav.nav-pills .logo.space {
+    float: right;
+    clear: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0%;
+}
+
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.right {
+    float: none;
+    clear: none;
+}
+
+.right {
+	float: right;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.buttonform {
+  background-color: #39A0ED;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.buttonform:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  	padding: 16px;
+	width: 50%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.login {
+	width: 30%;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 170px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	.login {
+		width: 70%;
+	}
+	
+	.calenderdiv {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+.caromax {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+	.col4 {
+		width: 100%;
+	}
+	.row {
+		width: 100%;
+	}
+	
+	.col1 {
+		width: 100%;
+	}
+	#map {
+		margin: 0 auto;
+	}
+	
+	.col3 {
+		width: 100%;
+	}
+	
+	
+	
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #3467eb;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+.rowp {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #3467eb;
+}
+
+#pay {
+  color: white;
+  background-color: #39A0ED;
+}
+
+#pay:hover {
+  opacity: 0.8;
+}
+
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .rowp {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
